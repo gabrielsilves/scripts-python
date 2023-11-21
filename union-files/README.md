@@ -9,7 +9,7 @@ Este projeto contém um script Python para unir arquivos em formatos CSV, XLS e 
 3. Execute o script com `python union-files.py`.
 
 ## Código-Fonte
-Você pode encontrar o script principal aqui: [union-files.py](./union-files/union-files.py)
+Você pode encontrar o script principal aqui: [union-files.py](./union-files.py)
 
 ## Dependências
 - pandas
