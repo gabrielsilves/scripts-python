@@ -13,12 +13,12 @@ def merge_data(data_folder):
     for filename in os.listdir(data_folder):
         # Verifica se o arquivo é um arquivo CSV
         if filename.endswith('.csv'):
-            # Lê o arquivo CSV e o anexa ao DataFrame 'all_data'
+            # Lê o arquivo CSV e o anexa ao DataFrame
             df = pd.read_csv(os.path.join(data_folder, filename))
             frames.append(df)
         # Verifica se o arquivo é um arquivo Excel (XLS ou XLSX)
         elif filename.endswith(('.xls', '.xlsx')):
-            # Lê o arquivo Excel e o anexa ao DataFrame 'all_data'
+            # Lê o arquivo Excel e o anexa ao DataFrame
             df = pd.read_excel(os.path.join(data_folder, filename))
             frames.append(df)
 
