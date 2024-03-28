@@ -9,7 +9,10 @@ Este projeto contém um script Python para unir arquivos em formatos PDF, IMAGEN
 3. Execute o script com `python union-files.py`, `python union-image.py`, `python union-pdf.py` .
 
 ## Código-Fonte
-Você pode encontrar o script principal aqui: [union-files.py](./union-files.py), [union-image.py](./union-image.py), [union-pdf.py](./union-pdf.py)
+Você pode encontrar o script principal aqui: 
+- [union-files.py](./union-files.py)
+- [union-image.py](./union-image.py)
+- [union-pdf.py](./union-pdf.py)
 
 ## Dependências
 - pandas
